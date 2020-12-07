@@ -1,0 +1,45 @@
+/*Custom CSS for some elements*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Spartan", sans-serif;
+}
+
+.decoration-primary {
+	position: relative;
+}
+
+.decoration-primary::after {
+	content: '';
+	display: block;
+	border: 5px solid #00d1b2;
+	position: absolute;
+	width: 100%;
+	bottom: -6px;
+	border-radius: 1em
+}
+
+.decoration-second {
+	position: relative;
+}
+
+.decoration-second::after {
+	content: '';
+	display: block;
+	border: 5px solid #dbba58;
+	position: absolute;
+	width: 100%;
+	bottom: -6px;
+	border-radius: 1em
+}
+
+.skew-block {
+	transform: skewY(-12deg);
+}
+
+.skew-text {
+	transform: skewY(12deg);
+}
