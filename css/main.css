@@ -45,6 +45,7 @@ p {
 
 h1, h2, h3 {
   color: #222;
+  margin: 0;
 }
 
 hr {
@@ -266,6 +267,10 @@ template {
 	margin: 0 auto;
 }
 
+.logo {
+	width: 25%;
+}
+
 .section {
 	padding: 2em 1.5em;
 }
@@ -274,7 +279,7 @@ template {
 .flex {
 	display: flex;
 	display: -webkit-flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .line,
@@ -390,4 +395,27 @@ template {
 	right: 20px;
 	font-size: 2.2em;
   cursor: pointer;
+}
+
+.navbar {
+  display: none;
+}
+
+/*Responsive*/
+@media (min-width: 992px) {
+  #toggle-menu {
+    display: none;
+  }
+  .row, .flex {
+    flex-direction: row;
+  }
+
+  .logo {
+	   width: 100%;
+  }
+
+  .navbar {
+	  display: block;
+  }
+
 }

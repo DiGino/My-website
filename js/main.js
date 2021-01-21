@@ -1,7 +1,7 @@
 
 let openmodal = document.querySelector(".open_modal");
 let modal = document.querySelector(".modal");
-let close = document.querySelector(".close")
+let close = document.querySelector(".close");
 
 openmodal.addEventListener("click", openModal);
 function openModal() {
