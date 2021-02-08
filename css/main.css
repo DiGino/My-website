@@ -282,9 +282,16 @@ template {
 	flex-direction: column;
 }
 
-.line,
-.projet {
+#portfolio .row {
+  flex-wrap: wrap;
+}
+
+.line {
   flex: 1;
+}
+
+.projet {
+  flex: 0 31%;
 }
 
 .row {
@@ -388,12 +395,16 @@ template {
   transition: var(--main-transition);
 }
 
+.design {
+  cursor: pointer;
+}
+
 .close {
 	color: #fff;
 	position: absolute;
 	top: 1em;
 	right: 20px;
-	font-size: 2.2em;
+	font-size: 2em;
   cursor: pointer;
 }
 
