@@ -63,7 +63,8 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 b,
@@ -292,7 +293,7 @@ template {
 }
 
 .projet p, .ps {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .en-gras {
