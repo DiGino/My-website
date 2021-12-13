@@ -80,11 +80,11 @@ Après 3 années d'études supérieures en informatique et deux diplômes décro
       <div class="line">
         <h3>- Design UI</h3>
 		<p>Je crée des maquettes et prototypes de sites web et d'applications mobiles</p>
-		<p>Mes outils préférés : <span class="en-gras">Adobe XD, Figma</span>
+		<p>Mes outils: <span class="en-gras">Adobe XD, Figma</span>
       </div>
 	   <div class="line">
         <h3>- Bonnes pratiques Dev</h3>
-		<p>Mes outils préférés pour du déployement continu : <span class="en-gras">Git, Github actions</span>
+		<p>Déployement continu : <span class="en-gras">Git, Github actions</span>
       </div>
     </div>
   </section>
