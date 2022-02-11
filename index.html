@@ -29,9 +29,9 @@
   </a>
 <nav class="navbar">
   <ul class="row">
-    <li class="navlink"><a href="#competences">Compétences</a></li>
-    <li class="navlink"><a href="#portfolio">Portfolio</a></li>
-    <li class="navlink"><a href="#contact">Contact</a></li>
+    <li class="navlink"><a class="hoverable" href="#competences">Compétences</a></li>
+    <li class="navlink"><a class="hoverable" href="#portfolio">Portfolio</a></li>
+    <li class="navlink"><a class="hoverable" href="#contact">Contact</a></li>
     <li class="navlink"><a href="https://github.com/digino" target="_blank" title="Di Gino sur Github"><svg class="github" width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.9883 1.23535C7.74316 1.23242 1.875 7.09766 1.875 14.3369C1.875 20.0615 5.5459 24.9277 10.6582 26.7148C11.3467 26.8877 11.2412 26.3984 11.2412 26.0645V23.7939C7.26563 24.2598 7.10449 21.6289 6.83789 21.1895C6.29883 20.2695 5.02441 20.0352 5.40527 19.5957C6.31055 19.1299 7.2334 19.7129 8.30273 21.292C9.07617 22.4375 10.585 22.2441 11.3496 22.0537C11.5166 21.3652 11.874 20.75 12.3662 20.2725C8.24707 19.5342 6.53027 17.0205 6.53027 14.0322C6.53027 12.582 7.00781 11.249 7.94531 10.1738C7.34766 8.40137 8.00098 6.88379 8.08887 6.6582C9.79102 6.50586 11.5605 7.87696 11.6982 7.98535C12.665 7.72461 13.7695 7.58692 15.0059 7.58692C16.248 7.58692 17.3555 7.73047 18.3311 7.99414C18.6621 7.74219 20.3027 6.56445 21.8848 6.70801C21.9697 6.9336 22.6084 8.41602 22.0459 10.165C22.9951 11.2432 23.4785 12.5879 23.4785 14.041C23.4785 17.0352 21.75 19.5518 17.6191 20.2783C17.973 20.6263 18.2539 21.0413 18.4455 21.499C18.6372 21.9567 18.7357 22.4481 18.7354 22.9443V26.2402C18.7588 26.5039 18.7354 26.7647 19.1748 26.7647C24.3633 25.0156 28.0986 20.1143 28.0986 14.3398C28.0986 7.09766 22.2275 1.23535 14.9883 1.23535V1.23535Z" fill="#9a9a9a"></path></svg>
     </a></li>
   </ul>
@@ -41,51 +41,47 @@
 
 <main class="container">
 
-  <section class="section flex">
+  <section class="section">
   <div class="who">
-    <h1>Salut, moi c'est Gino</h1>
-    <p>Je suis un <span class="en-gras">Développeur Web</span> et <span class="en-gras">Designer UI</span> résidant à Lomé.</p>
+    <h1>Salut, moi c'est <span class="clip-text bg-gradient">Gino</span></h1>
+    <p class="m0">Je suis un <span class="font-600 clip-text bg-gradient">Développeur Web</span> et <span class="font-600 clip-text bg-gradient">Designer UI</span></p>
   </div>
-  <div class="image_div">
+<!--   <div class="image_div">
       <span class="dec1"></span>
       <span class="dec2"></span>
       <img src="img/logo2x.png" class="image">
-  </div>
+  </div> -->
   </section>
     <section id="en-bref" class="section">
   <h2><span class="decoration">#</span>En bref</h2>
   <p class="presentation">
-Après 3 années d'études supérieures en informatique et deux diplômes décrochés en 2017, je me suis essentiellement consacré à la <span class="en-gras">programmation</span> et au <span class="en-gras">design</span>. 
+Après 3 années d'études supérieures en informatique et deux diplômes décrochés en 2017, je me suis essentiellement consacré à la <span class="font-600">programmation</span> et au <span class="font-600">design d'interfaces</span>. 
 Dès lors, j'ai pu travailler sur différents projets qui ont forgé encore plus mes compétences.</p>
   </section>
 
   <section id="competences" class="section">
     <h2><span class="decoration">#</span>Mes compétences</h2>
-      <p>Elles ne sont pas nombreuses certes, mais je n'ai de cesse d'apprendre et d'essayer d'en acquérir chaque jour.</p>
-    <div class="row">
-      <div class="line">
-		<h3>- Développement Web</h3>
-		<p>Je développe des sites web aux interfaces aussi bien agréables à voir qu'à utiliser.</p>
-		<p>
-		Langages: <span class="en-gras">HTML5, CSS3, Javascript(ES6), PHP</span>
-		</p>
-		<p>
-		Frameworks: <span class="en-gras">VueJS, SpectreCSS, Bootstrap CSS</span>
-		</p>
-		<p>
-		CMS: <span class="en-gras">WordPress</span>
-		</p>
-      </div>
-      <div class="line">
-        <h3>- Design UI</h3>
-		<p>Je crée des maquettes et prototypes de sites web et d'applications mobiles</p>
-		<p>Outils: <span class="en-gras">Adobe XD, Figma</span></p>
-      </div>
-	   <div class="line">
-        <h3>- Bonnes pratiques Dev</h3>
-		<p class="en-gras">Webpack, Gulp, Git, Github actions</p>
-      </div>
-    </div>
+	<div class="row">
+      <div class="line"><p class="ps">Elles ne sont pas nombreuses certes, mais je n'ai de cesse d'apprendre et d'en acquérir chaque jour.</p></div>
+		<div class="line bg-gray">
+			<h3>Développement Web</h3>
+			<div class="ps">
+				Je développe des sites web aux interfaces aussi bien agréables à voir qu'à utiliser.<br>
+				<span class="font-600 clip-text bg-gradient">Langages:</span> HTML5, CSS3, Javascript(ES6), PHP<br>
+				<span class="font-600 clip-text bg-gradient">Frameworks:</span> VueJS, SpectreCSS, Bootstrap CSS<br>
+				<span class="font-600 clip-text bg-gradient">CMS:</span> WordPress<br>
+				<span class="font-600 clip-text bg-gradient">Autres:</span> Webpack, Gulp, Git, Github actions
+				</p>
+			</div>
+		  </div>
+		  <div class="line bg-soft-red">
+				<h3>Design UI</h3>
+			<div class="ps">
+				Je crée des maquettes et prototypes de sites web et d'applications mobiles.<br>
+				<span class="font-600 clip-text bg-gradient">Outils:</span> Adobe XD, Figma
+			</div>
+		  </div>
+	</div> 
   </section>
 
   <section id="portfolio" class="section">
@@ -98,7 +94,7 @@ Dès lors, j'ai pu travailler sur différents projets qui ont forgé encore plus
           <span class="tool-tip">i
             <span class="tool-tip-text">Frontend réalisé avec du HTML, du CSS, du Javascript(VueJS) et backend conçu avec du PHP couplé au CMS WordPress pour l'administration.</span>
           </span>
-          <a href="https://ozofr.com" class="link-button" title="Visiter ozofr" target="_blank">Visiter ozofr</a>
+          <a href="https://ozofr.com" class="link-button font-600" title="Visiter ozofr" target="_blank">Voir le site</a>
       </div>
 	   <div class="projet">
           <img class="apercu" src="img/helium-shot.png">
@@ -106,24 +102,40 @@ Dès lors, j'ai pu travailler sur différents projets qui ont forgé encore plus
           <span class="tool-tip">i
             <span class="tool-tip-text">Frontend réalisé en VueJS et rendu côté serveur avec NuxtJs.</span>
           </span>
-          <a href="https://heliumartworks.com" class="link-button" title="Visiter Helium Artworks" target="_blank">Visiter Helium Artworks</a>
+          <a href="https://heliumartworks.com" class="link-button font-600" title="Visiter Helium Artworks" target="_blank">Voir le site</a>
       </div>
       <div class="projet">
+          <img class="apercu" src="img/cej-shot.jpg">
+          <p>Le site officiel du Centre Evangélique de Jonquière (Québec)</p>
+          <span class="tool-tip">i
+            <span class="tool-tip-text">Design fait avec Adobe XD et intégration faite avec WordPress</span>
+          </span>
+          <a href="https://cej-pentecote.com/" class="link-button font-600" title="Visiter erudyx" target="_blank">Voir le site</a>
+      </div>      
+	  <div class="projet">
+          <img class="apercu" src="img/jep-shot.jpg">
+          <p>Maquette proposée pour la refonte du site web de <strong>JE PERRON Ltée</strong> (https://jeperron.ca/)</p>
+          <span class="tool-tip">i
+            <span class="tool-tip-text">Maquette en cours de validation</span>
+          </span>
+          <a href="https://www.figma.com/proto/MseXH7auMsM8PAZ0XiZv9E/JEPERRON?page-id=0%3A1&node-id=22%3A221&viewport=241%2C48%2C0.16&scaling=min-zoom&starting-point-node-id=22%3A221" class="link-button font-600" title="Visiter erudyx" target="_blank">Voir la maquette</a>
+      </div>
+	  <div class="projet">
           <img class="apercu" src="img/erudyx-shot.jpg">
           <p><strong>erudyx.com</strong> est une plateforme web destinée au partage de la culture générale</p>
           <span class="tool-tip">i
             <span class="tool-tip-text">Design et intégration faite avec du
-              HTML, du CSS, du Javascript(JQuery) et du PHP (fonctions Wordpress.)</span>
+              HTML, du CSS, du Javascript(JQuery) et du PHP (fonctions Wordpress.). Utilisation de l'api de Wikipedia pour afficher les évènements éphémérides du jour</span>
           </span>
-          <a href="https://erudyx.com" class="link-button" title="Visiter erudyx" target="_blank">Visiter erudyx</a>
+          <a href="https://erudyx.com" class="link-button font-600" title="Visiter erudyx" target="_blank">Voir le site</a>
       </div>
       <div class="projet">
           <img class="apercu" src="img/heaven-shot.jpg">
           <p><strong>vivreheaven.org</strong> est le site web de l'association Heaven. Cette dernière oeuvre pour l'atteinte de l'ODD1</p>
           <span class="tool-tip">i
-            <span class="tool-tip-text">Design et intégration faite avec du HTML, du CSS et du Javascript</span>
+            <span class="tool-tip-text">Design fait avec Adobe XD et intégration faite avec du HTML, du CSS et du Javascript</span>
           </span>
-          <a href="https://vivreheaven.org" class="link-button" title="Visiter vivreheaven.com" target="_blank">Visiter Heaven</a>
+          <a href="https://vivreheaven.org" class="link-button font-600" title="Visiter vivreheaven.com" target="_blank">Voir le site</a>
       </div>
       <div class="projet design">
           <img class="apercu" src="img/keran-shot.jpg">
