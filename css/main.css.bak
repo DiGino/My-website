@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 html {
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
@@ -269,7 +271,7 @@ template {
 
 .line {
   flex: 1;
-  padding: 0 1em;
+  padding: 0 .6em;
 }
 
 .flex {
