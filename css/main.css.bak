@@ -217,14 +217,13 @@ template {
 
 /*Components*/
 
-.link-button {
+.link-button{
 	border: 1px solid #f78ca0;
 	background: #f78ca0;
 	color: #fff;
-	padding: 8px 12px;
+	padding: 6px;
 	cursor: pointer;
 	border-radius: 5px;
-	font-size: 14px;
 }
 
 .link-button:hover{
