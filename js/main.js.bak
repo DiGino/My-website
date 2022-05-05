@@ -19,7 +19,8 @@ function getYearsDiff(dt, dbd) {
 function showExpYears() {
 	let today = new Date();
 	let beginDev = new Date("05 June 2018");
-	let expYears = getYearsDiff(today, beginDev);	
+	let expYears = getYearsDiff(today, beginDev);
+	
 	exp_year.innerHTML = expYears;
 }
 
