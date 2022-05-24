@@ -24,17 +24,21 @@
 
 	
   <link rel="icon" href="icon.png">
-  <link rel="stylesheet" href="css/main.css"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/main.css?cb=1653414499823">
 
-  <meta name="theme-color" content="#f78ca0">
+  <meta name="theme-color" content="#000">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
-<body>
+<body class="dark-bg">
 
 <header class="section">
 <div class="container flex">
   <a href="digino.github.io" class="logo">
-    <img src="img/logo.png">
+    <img src="icon.png">
   </a>
 <nav class="navbar">
   <ul class="row">
@@ -51,145 +55,166 @@
 <main class="container">
 
   <section class="section">
-  <div class="who">
-    <h1>Salut, moi c'est <span class="clip-text bg-gradient">Gino</span></h1>
-    <p class="m0">Je suis <span class="font-600 clip-text bg-gradient">Développeur Web</span> et <span class="font-600 clip-text bg-gradient">Designer UI</span></p>
+  <div class="shadow-section">
+    <h1>Salut, moi c'est <span class="text-c"> Gino</span></h1>
+    <p>Je suis un <span class="font-600 text-c">Développeur Web Front-end</span> résidant à Lomé, Togo. Mes principaux centres d'intérêts vont du code au design d'interfaces.
+      A mes heures libres, j'aime jouer aux échecs et travailler sur certains projets tech personnels. 
+    </p>
   </div>
-<!--   <div class="image_div">
-      <span class="dec1"></span>
-      <span class="dec2"></span>
-      <img src="img/logo2x.png" class="image">
-  </div> -->
-  </section>
-    <section id="en-bref" class="section">
-  <h2><span class="decoration">#</span>En bref</h2>
-  <p class="presentation">
-Technicien guidé par la logique et la créativité, je sais me démarquer par mon approche et ma passion pour la culture du résultat. Depuis <span id="exp_year">_exp_years_</span> ans, je ne cesse de me perfectionner à la création de produits utiles à travers la programmation et le design d'interfaces.
-  </p>
   </section>
 
   <section id="competences" class="section">
     <h2><span class="decoration">#</span>Mes compétences</h2>
-	<div class="row">
-      <div class="line"><p class="ps">Elles ne sont pas nombreuses certes, mais je n'ai de cesse d'apprendre et d'en acquérir chaque jour.</p></div>
-		<div class="line bg-gray">
-			<h3>Développement Web</h3>
-			<div class="ps">
-				Je développe des sites web aux interfaces aussi bien agréables à voir qu'à utiliser.<br>
-				<span class="font-600 clip-text bg-gradient">Langages:</span> HTML5, CSS3, Javascript(ES6), PHP<br>
-				<span class="font-600 clip-text bg-gradient">Frameworks:</span> VueJS, SpectreCSS, Bootstrap CSS<br>
-				<span class="font-600 clip-text bg-gradient">CMS:</span> WordPress<br>
-				<span class="font-600 clip-text bg-gradient">Autres:</span> Webpack, Gulp, Git, Github actions
-				</p>
-			</div>
-		  </div>
-		  <div class="line bg-soft-red">
-				<h3>Design UI</h3>
-			<div class="ps">
-				Je crée des maquettes et prototypes de sites web et d'applications mobiles.<br>
-				<span class="font-600 clip-text bg-gradient">Outils:</span> Adobe XD, Figma
-			</div>
-		  </div>
-	</div> 
+    <p>Elles ne sont pas nombreuses, raison pour laquelle je n'ai de cesse d'apprendre, de comprendre et d'en acquérir chaque jour.</p>
+    <div class="shadow-section">
+      <h3>Mes compétences techniques</h3>
+      <div class="row">
+        <div class="line">
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>Javascript</p>
+          <p>PHP</p>
+          <h4>Autres</h4>
+          <p>GulpJS, NodeJS</p>
+          <p>Git, Github Actions</p>
+        </div>
+        <div class="line">
+          <p>Bonne connaissance du CMS WordPress</p>
+          <p>Bonne connaissance des frameworks Boostrap, Spectre et VueJS</p>
+          <p>Bonne connaissance des principes du design d'interfaces</p>
+          <h4>Outils</h4>
+          <p>Figma Adobe XD</p>
+          <p>Git, Github Actions</p>
+        </div>
+      </div>
+      <h3>Mes compétences non techniques</h3>
+      <div class="row">
+        <div class="line">
+          <p>Curieux et ouvert à l'apprentissage</p>
+          <p>Grand sens du devoir</p>
+          <p>Autonome et Organisé</p>
+        </div>
+        <div class="line">
+          <p>Enclin à la logique</p>
+          <p>Motivé et Passionné</p>
+          <p>Empathique</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="portfolio" class="section">
     <h2><span class="decoration">#</span>Mon Portfolio</h2>
-    <p>Quelques uns des projets que j'ai réalisé</p>
+    <p>Certains projets que j'ai réalisé ou sur lesquels j'ai travaillé</p>
     <div class="row">
-      <div class="projet">
+
+      <div class="projet shadow-section">
           <img class="apercu" src="img/ozofr-shot.png">
-          <p><strong>ozofr.com</strong> est une plateforme web qui indexe les appels d'offres, marchés publics ou privés et appels à manifestation d'intérêts en Afrique.</p>
-          <span class="tool-tip">i
-            <span class="tool-tip-text">Front-end rendu en VueJS et Backend conçu avec du PHP couplé au CMS WordPress pour l'administration.</span>
-          </span>
-          <a href="https://ozofr.com" class="link-button" title="Visiter ozofr" target="_blank">Voir le site</a>
+          <div class="description">
+            <p><strong>ozofr.com</strong> est une plateforme web qui indexe les offres d'emploi et appels d'offres en Afrique de l'Ouest.</p>
+            <div class="divider"></div>
+            <p><span class="font-600">Mes travaux: </span>Design et intégration. <br>
+               La stack repose sur du WordPress avec un rendu dynamique et réactif en VueJS.
+            </p>
+            <a href="https://ozofr.com" class="link-button" title="Visiter ozofr" target="_blank">Voir le site</a>
+          </div>
       </div>
-      <div class="projet">
-          <img class="apercu" src="img/heaven-shot.jpg">
+
+      <div class="projet shadow-section">
+        <img class="apercu" src="img/heaven-shot.jpg">
+        <div class="description">
           <p>Le site web de l'association Heaven. Cette dernière oeuvre pour l'atteinte de l'ODD1</p>
-          <span class="tool-tip">i
-            <span class="tool-tip-text">Design réalisé avec Adobe XD et intégration faite avec du HTML, du CSS et du Javascript</span>
-          </span>
+          <div class="divider"></div>
+          <p><span class="font-600">Mes travaux: </span>Design et intégration. <br>
+            L'intégration faite avec du HTML, du CSS et du Javascript (associé à certaines librairies d'animation)
+          </p>
           <a href="https://vivreheaven.org" class="link-button" title="Visiter vivreheaven.com" target="_blank">Voir le site</a>
-      </div>	  
-	   <div class="projet">
-          <img class="apercu" src="img/helium-shot.png">
+        </div>
+      </div>
+
+      <div class="projet shadow-section">
+        <img class="apercu" src="img/visees-shot.png">
+        <div class="description">
+          <p>Site web vitrine et blog conçu pour le studio Visees.</p>
+          <div class="divider"></div>
+          <p><span class="font-600">Mes travaux: </span>Design et intégration. <br>
+            Conception d'un thème WordPress unique pour le site.
+          </p>
+          <a href="https://visees.net/studio" class="link-button" title="Visiter le studio Visees" target="_blank">Voir le site</a>
+        </div>
+      </div>
+
+      <div class="projet shadow-section">
+        <img class="apercu" src="img/helium-shot.png">
+        <div class="description">
           <p><strong>Helium Artworks</strong> est une banque d'images dont l'objectif est de fournir du contenu média typiquement africain.</p>
-          <span class="tool-tip">i
-            <span class="tool-tip-text">Front-end réalisé en VueJS et rendu côté serveur avec NuxtJs.</span>
-          </span>
+          <div class="divider"></div>
+          <p><span class="font-600">Mes travaux: </span>Intégration du Front-end et appel d'api<br>
+            Front-end intégré en VueJS.
+          </p>
           <a href="https://heliumartworks.com" class="link-button" title="Visiter Helium Artworks" target="_blank">Voir le site</a>
+        </div>
       </div>
-	  <div class="projet">
-          <img class="apercu" src="img/eg-shot.jpg">
-          <p>Le site web du consultant en communication institutionnelle et numérique, et podcasteur <strong>Edem Gbetoglo</strong>.</p>
-          <span class="tool-tip">i
-            <span class="tool-tip-text">Intégration faite avec WordPress(Validation du site en cours).</span>
-          </span>
-          <a class="link-button" title="Visiter ozofr" target="_blank">Site en cours de validation</a>
-      </div>
-	  <div class="projet">
-          <img class="apercu" src="img/jep-shot.jpg">
-          <p>Maquette proposée pour la refonte du site web de <strong>JE PERRON Ltée</strong> (https://jeperron.ca/)</p>
-          <span class="tool-tip">i
-            <span class="tool-tip-text">Maquette réalisée avec Figma et en attente de validation</span>
-          </span>
-          <a href="https://www.figma.com/proto/MseXH7auMsM8PAZ0XiZv9E/JEPERRON?page-id=0%3A1&node-id=22%3A221&viewport=241%2C48%2C0.16&scaling=min-zoom&starting-point-node-id=22%3A221" class="link-button" title="Visiter erudyx" target="_blank">Voir la maquette</a>
-      </div>
-	  <div class="projet">
-          <img class="apercu" src="img/dstogo-shot.jpg">
-          <p>Le site web de la société <strong>Destination Togo</strong> opérant dans la conciergerie pour touristes au Togo.</p>
-          <span class="tool-tip">i
-            <span class="tool-tip-text">Intégration faite avec WordPress</span>
-          </span>
-          <a href="http://destinationtogo.net" class="link-button" title="Visiter Destination Togo" target="_blank">Voir le site</a>
-      </div>
-  
-      <div class="projet">
-          <img class="apercu" src="img/cej-shot.jpg">
-          <p>Le site web du Centre Evangélique de Jonquière (Québec)</p>
-          <span class="tool-tip">i
-            <span class="tool-tip-text">Design réalisé avec Adobe XD et intégration faite avec WordPress</span>
-          </span>
-          <a href="https://cej-pentecote.com/" class="link-button" title="Visiter CEJ" target="_blank">Voir le site</a>
-      </div>      
-	  <div class="projet">
-          <img class="apercu" src="img/erudyx-shot.jpg">
-          <p><strong>erudyx.com</strong> est une plateforme web destinée au partage de la culture générale</p>
-          <span class="tool-tip">i
-            <span class="tool-tip-text">Design et intégration faite avec du
-              HTML, du CSS, du Javascript(JQuery) et du PHP (fonctions Wordpress.). Utilisation de l'api de Wikipedia pour afficher les évènements éphémérides du jour</span>
-          </span>
+
+      <div class="projet shadow-section">
+        <img class="apercu" src="img/erudyx-shot.jpg">
+        <div class="description">
+          <p>Site web destiné au partage de la culture générale</p>
+          <div class="divider"></div>
+          <p><span class="font-600">Mes travaux: </span>Design et Intégration<br>
+            Conception d'un thème WordPress unique pour le site. Utilisation de l'api de Wikipedia pour afficher les évènements éphémérides du jour
+          </p>
           <a href="https://erudyx.com" class="link-button" title="Voir la maquette" target="_blank">Voir le site</a>
+        </div>
       </div>
-      <div class="projet design">
-          <img class="apercu" src="img/keran-shot.jpg">
-          <h4>Kéran</h4>
-          <p>Maquette fictive d'un site web pour le parc national de la Kéran</p>
-          <div class="modal">
-            <img src="img/keran-shot.jpg">
-            <span class="close">X</span>
-          </div>
+
+      <div class="projet shadow-section">
+        <img class="apercu" src="img/jep-shot.jpg">
+        <div class="description">
+          <p>Maquette proposée pour la refonte du site web de <strong>JE PERRON Ltée</strong> (https://jeperron.ca/)</p>
+          <div class="divider"></div>
+          <p><span class="font-600">Mes travaux: </span>Design<br>
+            Maquette réalisée avec Figma et en attente de validation
+          </p>
+          <a href="https://www.figma.com/proto/MseXH7auMsM8PAZ0XiZv9E/JEPERRON?page-id=0%3A1&node-id=22%3A221&viewport=241%2C48%2C0.16&scaling=min-zoom&starting-point-node-id=22%3A221" class="link-button" title="Visiter erudyx" target="_blank">Voir la maquette</a>
+        </div>
       </div>
-      <div class="projet design">
-          <img class="apercu" src="img/odg-redesign.jpg">
-          <h4>ODG Redesign</h4>
-          <p>Maquette proposée pour la refonte du site web d'Optique à Dieu la Gloire ( <b>odg.tg</b> )</p>
-          <div class="modal">
-            <img src="img/odg-redesign.jpg">
-            <span class="close">X</span>
-          </div>
+
+      <div class="projet shadow-section">
+        <img class="apercu" src="img/dstogo-shot.jpg">
+        <div class="description">
+          <p>Le site web de la société <strong>Destination Togo</strong> opérant dans la conciergerie pour touristes au Togo.</p>
+          <div class="divider"></div>
+          <p><span class="font-600">Mes travaux: </span>Intégration<br>
+            Intégration faite avec WordPress et Elementor.
+          </p>
+          <a href="http://destinationtogo.net" class="link-button" title="Visiter Destination Togo" target="_blank">Voir le site</a>
+        </div>
       </div>
-      <div class="projet design">
-          <img class="apercu" src="img/lapev-mobilier-redesign.jpg">
-          <h4>Lapev Mobilier redesign</h4>
-          <p>Design proposée pour la refonte du site ( <b>lapev-mobilier.com</b> )</p>
-          <div class="modal">
-            <img src="img/lapev-mobilier-redesign.jpg">
-            <span class="close">X</span>
-          </div>
+
+      <div class="projet shadow-section">
+        <img class="apercu" src="img/eg-shot.jpg">
+        <div class="description">
+          <p>Site web vitrine du consultant en communication institutionnelle/numérique, et podcasteur <strong>Edem Gbetoglo</strong>.</p>
+          <div class="divider"></div>
+          <p><span class="font-600">Mes travaux: </span>Intégration<br>
+            Création d'un thème WordPress unique pour le site.
+          </p>
+          <a class="link-button" title="Visiter le site" target="_blank">Site en cours de validation</a>
+        </div>
       </div>
+      
+      <div class="projet shadow-section">
+        <img class="apercu" src="img/cej-shot.jpg">
+        <div class="description">
+          <p>Le site web du Centre Evangélique de Jonquière (Québec)</p>
+          <div class="divider"></div>
+          <p><span class="font-600">Mes travaux: </span>Refonte du site<br>
+            Intégration faite avec WordPress et Elementor.
+          </p>
+          <a href="https://cej-pentecote.com/" class="link-button" title="Visiter CEJ" target="_blank">Voir le site</a>
+        </div>
+      </div>     
 
     </div>
   </section>
@@ -215,7 +240,7 @@ Technicien guidé par la logique et la créativité, je sais me démarquer par m
 
 </main>
 
-  <script src="js/main.js"></script>
+<script src="dist/app.js"></script>
 
 </body>
 
