@@ -14,6 +14,6 @@
 
 // showExpYears();
 
-ScrollReveal().reveal('.shadow-section', { delay: 800 });
+ScrollReveal().reveal('.shadow-section', { delay: 500 });
 
 console.log("-----------Demain c'est loin, notre futur c'est la seconde d'après - Youssoupha-----------------");

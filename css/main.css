@@ -9,8 +9,8 @@ html {
 	--default-padding: 1em;
 }
 
-.dark-bg {
-	background: #000;
+.bg-gray {
+	background: #f2f2f2;
 }
 
 * {
@@ -20,7 +20,7 @@ html {
 body {
 	font-family: "Plus Jakarta Sans", Roboto, Segoe-ui, Helvetica, sans-serif;
   	margin: 0;
-	color: #fff;
+	color: #000;
 	text-rendering: optimizeLegibility;
 	font-size: 1em;
 }
@@ -63,7 +63,7 @@ pre {
 
 a {
   background-color: transparent;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -283,7 +283,7 @@ template {
 	background-color: #fff;
 	border: 1px solid #000;
 	border-radius: 4px;
-	box-shadow: 4px 4px 0 0 #fff,8px 8px 0 0 #fff !important;
+	box-shadow: 4px 4px 0 0 #fff,8px 8px 0 0 #262626 !important;
 	box-sizing: border-box;
 	color: #000;
 	padding: 40px;
@@ -312,6 +312,7 @@ template {
 
 .section {
 	padding: 2em 1.5em;
+	position: relative;
 }
 
 .row,
