@@ -221,8 +221,8 @@ template {
 /*Components*/
 
 .link-button {
-	border: 1px solid #ff4669;
-	background: #ff4669;
+	border: 1px solid #37276f;
+	background: #37276f;
 	color: #fff;
 	cursor: pointer;
 	border-radius: 4px;
@@ -244,13 +244,13 @@ template {
 }
 
 .link-button:hover{
-	background:  #f9748f;
+	background:  #6757a2;
 	transition: var(--main-transition);
 }
 
 
 .design-tag {
-	background: #ff4669;
+	background: #37276f;
 	padding: var(--default-padding);
 }
 
@@ -264,7 +264,7 @@ template {
 }
 
 .decoration {
-  color: #ff4669;
+  color: #37276f;
 }
 
 /*General*/
@@ -345,7 +345,7 @@ template {
 	margin-right: .4em;
 	transition: transform .4s .5s;
 	transform: scale(1);
-	background-color: #ff4669;
+	background-color: #37276f;
 	border-radius: 100%;
 }
 
@@ -375,7 +375,7 @@ template {
 	height: 2px;
 	top: 110%;
 	left: 0;
-	background-color: #ff4669;
+	background-color: #37276f;
 	transform-origin: bottom right;
 	transition: transform .4s cubic-bezier(.86,0,.07,1);
 }
@@ -426,7 +426,7 @@ template {
 }
 
 .text-c {
-	color: #ff4669 !important;
+	color: #37276f !important;
 }
 
 .m0 {
