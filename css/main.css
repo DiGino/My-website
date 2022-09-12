@@ -421,7 +421,7 @@ template {
 
 
 .navlink:hover .github path {
-  fill: #fff;
+  fill: #37276f;
   transition: var(--main-transition);
 }
 
